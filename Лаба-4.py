@@ -8,7 +8,7 @@ class Record:
         return "Record()"
 
 
-class DishRecord(Record):
+class DishRecord(Record):  # changed in ORIGINAL
     # Одна запись: №, блюдо, время заказа, время приготовления, отзыв
     def __init__(self, num, dish, order_time, prep_time, review):
         self.num = num
