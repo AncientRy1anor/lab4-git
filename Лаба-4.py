@@ -190,3 +190,4 @@ if ans == "да":
 else:
     history.save_csv(csv_name)
     print("Файл обновлен без добавления новой записи")# Version 1.0.1
+# Change in original
