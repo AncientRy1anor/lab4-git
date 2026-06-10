@@ -8,7 +8,7 @@ class Record:
         return "Record()"
 
 
-class DishRecord(Record):  # changed in ORIGINAL
+class DishRecord(Record):  # changed in Clone
     # Одна запись: №, блюдо, время заказа, время приготовления, отзыв
     def __init__(self, num, dish, order_time, prep_time, review):
         self.num = num
@@ -190,8 +190,5 @@ if ans == "да":
 else:
     history.save_csv(csv_name)
     print("Файл обновлен без добавления новой записи")# Version 1.0.1
-# Change in original
-# ORIGINAL CHANGE
-# Version 1.0.1
 # CLONE CHANGE
-# change from CLONE
+# change from CLONE ORIGINAL
