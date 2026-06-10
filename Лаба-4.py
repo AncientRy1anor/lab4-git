@@ -193,4 +193,9 @@ else:
 # Change in original
 # ORIGINAL CHANGE
 # Version 1.0.1
+<<<<<<< HEAD
 # feature-b change
+=======
+# feature-a change
+>>>>>>> feature-a
+# change from ORIGINAL
